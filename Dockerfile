@@ -11,7 +11,7 @@ COPY . /app
 RUN 
 
 # Expose port
-EXPOSE 5000
+EXPOSE 80
 
 # Run the application
-CMD ["html", "MainMenu.aspx"]
+CMD ["html", "index.html"]
