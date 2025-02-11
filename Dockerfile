@@ -1,17 +1,10 @@
 # Use Html Base Image
 FROM nginx:alpine
 
-# Set working directory
-WORKDIR /app
-
-# Copy files
-COPY . /app
-
-# Install Flask
-RUN 
+COPY index.html /usr/share/nginx/html
 
 # Expose port
-EXPOSE 5000
+EXPOSE 80
 
-# # Run the application
- CMD ["html", "index.html"]
+# Run the application
+CMD ["html", "index.html"]
