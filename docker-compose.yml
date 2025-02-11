@@ -2,9 +2,9 @@
 version: '3.8'
 
 services:
-  testApp:
+  test_app:
       build: .
-      container_name: testApp
+      container_name: test_app
       restart: always
       ports:
       - "5000:5000"
@@ -17,4 +17,4 @@ services:
       volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       depends_on:
-      - testApp
+      - test_app
