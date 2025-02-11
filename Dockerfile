@@ -11,7 +11,7 @@ COPY . /app
 RUN 
 
 # Expose port
-EXPOSE 80
+EXPOSE 5000
 
 # Run the application
 CMD ["html", "index.html"]
