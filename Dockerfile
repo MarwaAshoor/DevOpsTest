@@ -13,5 +13,5 @@ RUN
 # Expose port
 EXPOSE 5000
 
-# Run the application
-CMD ["html", "index.html"]
+# # Run the application
+# CMD ["html", "index.html"]
