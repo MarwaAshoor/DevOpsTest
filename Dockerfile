@@ -14,4 +14,4 @@ RUN
 EXPOSE 5000
 
 # # Run the application
-# CMD ["html", "index.html"]
+ CMD ["html", "index.html"]
